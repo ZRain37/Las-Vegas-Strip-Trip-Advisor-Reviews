@@ -11,4 +11,4 @@ length(is.na(LVTA))
 
 ggplot(data = LVTA) +
   geom_bar(aes(x=Hotel.name, y=Score),
-           stat = "summary", fun.y <- "mean", color = "blue")
+           stat = "summary", fun.y = "mean", color = "blue")
